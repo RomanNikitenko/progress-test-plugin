@@ -31,7 +31,6 @@ export function start(context: theia.PluginContext) {
     context.subscriptions.push(theia.commands.registerCommand(explorerStartProgressCommand, () => {
         theia.commands.executeCommand('fileNavigator:toggle');
         theia.window.withProgress({ location: { viewId: 'explorer' } }, async () => {
-
             return timeout(DELAY);
         });
     }));
@@ -64,6 +63,4 @@ export function timeout(ms: number): Promise<void> {
     });
 }
 
-export function stop() {
-
-}
+export function stop() { }

@@ -7,7 +7,7 @@ At the moment it's possible to use [ProgressLocation](https://github.com/eclipse
 
 [The PR](https://github.com/eclipse-theia/theia/pull/8700) is aligning [location field](https://github.com/eclipse-theia/theia/blob/bdc9aa276cb55e5cf3dc8d7cb6e795ed8ffba998/packages/plugin/src/theia.d.ts#L4154) and the corresponding behavior with VS Code.
 
-Current plugin contains a few commands to have an ability to test [The PR](https://github.com/eclipse-theia/theia/pull/8700).
+Current plugin contains a few commands to have an ability to test [the PR](https://github.com/eclipse-theia/theia/pull/8700).
 
 You can use:
 - Start progress for Explorer view
