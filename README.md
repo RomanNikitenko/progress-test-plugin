@@ -13,9 +13,10 @@ You can use:
 - Start progress for Explorer view
 - Start progress for Search view
 - Start progress for Debug view
+- Start progress for Custom view (the view is provided by the current plugin) - thanks a lot Akos Kitta from TypeFox team for the usecase and provided sample
 - Start progress for SCM view
 
 commands from Command Palette (F1) to check progress in the correcponding view. 
 
-First 3 commands use `viewId` (new behavior) to show progress while running the given callback, the last command uses [ProgressLocation](https://github.com/eclipse-theia/theia/blob/bdc9aa276cb55e5cf3dc8d7cb6e795ed8ffba998/packages/plugin/src/theia.d.ts#L4172-L4185) enum to show progress for SCM view (existed behavior). 
+First 4 commands use `viewId` (new behavior) to show progress while running the given callback, the last command uses [ProgressLocation](https://github.com/eclipse-theia/theia/blob/bdc9aa276cb55e5cf3dc8d7cb6e795ed8ffba998/packages/plugin/src/theia.d.ts#L4172-L4185) enum to show progress for SCM view (existed behavior). 
 
